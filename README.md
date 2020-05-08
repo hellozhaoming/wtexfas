@@ -14,11 +14,13 @@ Physica B: Condensed Matter 542 (2018) 12–19
 <p></p>
 <p></p>
 <h2>一般使用方法：</h2>
+<p>下载编译好的程序（由于github有25M程序限制，因此暂时将编译好的程序放在百度网盘）：</p>
+<p>链接：https://pan.baidu.com/s/1E-BE-LJsmkiWU3QWfzcBFQ </p>
+<p>提取码：rpum</p>
 <p>三选一：</p>
-<p>1.下载build文件夹下的wtexafs Setup xxx.exe,该文件为安装包</p>
- <p>   双击安装后运行</p>
-<p>2.下载build文件夹下的wtexafs-xxx-xx-xx.zip，解压，双击运行wtexafs.exe</p>
-<p>3.下载build文件夹下的wtexafs-xxx-xx-xx.exe，该文件为免安装单文件版。但是因为文件经过压缩，运行相较前两者较慢。</p>
+<p>1.下载wtexafs Setup xxx.exe,该文件为安装包双击安装后运行</p>
+<p>2.下载wtexafs-xxx-xx-xx.zip，解压，双击运行wtexafs.exe</p>
+<p>3.下载wtexafs-xxx-xx-xx.exe，该文件为免安装单文件版。但是因为文件经过压缩，运行相较前两者较慢。</p>
   <p>  </p>
 <p></p>
 <p>用新版athena软件导出的k空间的数据，后缀是*.chik1/.chik2/.chik3的，可以直接导入到软件，然后一直点后面的按钮就好了。</p>
