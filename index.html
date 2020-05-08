@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Web-WTexafs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+  <body>
+    <!-- Header -->
+  <section id="header">
+    <header>
+      <h1>Wavelet transform of EXAFS</h1>
+      <p>By Zhaoming Xia</p>
+      <p>From Shanghai Synchrotron Radiation Facility (SSRF)</p>
+    </header>
+    <footer>
+      <a href="#banner" class="button style2 scrolly-middle">Data import</a>
+    </footer>
+  </section>
+
+  <!-- Banner -->
+  <section id="banner">
+    <header>
+      <h2>Please import your data</h2>
+    </header>
+    <p>You can choose the *.chik1/.chik2/.chik3 file exported by <a href="https://bruceravel.github.io/demeter/">Athena,</a></p>
+    <p>Or any txt file with two columns seperated by <strong>Space</strong>. </p>
+      <p>The first column should be "k" data, and the last column should be the EXAFS magnitude.</p>
+              <br><br><input type="text" placeholder="Please select a file" id="actual-file" disabled="disabled"/>
+              <input type="button" value="Choose a file" id="select-file"/>
+  <!--            <br><textarea id="content-editor" rows="5"></textarea>
+              <br><br>   -->
+<footer>
+  <a href="#first" class="button style2 scrolly">Wavelet parameters</a>
+</footer>
+</section>
+
+<article id="first" class="container box style1 right">
+  <input type="radio" name="sex" value="Morlet" /> Morlet
+<input type="radio" name="sex" value="Cauchy" /> Cauchy(comming soon)
+<input type="radio" name="sex" value="selfdefined" /> User-defined(comming soon)
+<br><br>eta:<input type="text" class="text" id="eta" placeholder="eta" value="2" style="width:50px"  />
+  sigma:<input type="text" class="text" id="sigma" placeholder="sigma" value="5" style="width:50px" />
+<hr />
+<P>R and K range -Seperated by Space</P>
+<div class="row 50%">
+  <div class="6u 12u$(mobile)"><input type="text" class="text" id="rrange" placeholder="Rmin Rmax deltaR" /></div>
+  <div class="6u$ 12u$(mobile)"><input type="text" class="text" id="krange" placeholder="Kmin Kmax deltaK" /></div>
+
+<div class="12u$">
+  <input type="button" id="wt-plot" value="Caculate and Plot data"/>
+</div>
+</div>
+</article>
+
+<article class="container box style1 left">
+  <div id="k-space"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="r-space"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="WT"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <input type="button" id="export-wt" value="ExportWT"/>
+</article>
+
+<article class="container box style2">
+      <header>
+        <h2>We are improving this program</h2>
+        <p>Bugs and suggestions<br />
+        please contact: hellozhaoming1992@gmail.com</p>
+      </header>
+      <div class="inner gallery">
+        <div class="row 0%">
+          <div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+        </div>
+        <div class="row 0%">
+          <div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
+          <div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+        </div>
+      </div>
+    </article>
+
+  <!--致谢 -->
+    <article class="container box style3">
+      <header>
+        <h2>Acknowledgements</h2>
+      </header>
+      <p> Please cite our review article :Physica B: Condensed Matter 542 (2018) 12–19</p>
+      <p> Other Acknowledgements:</p>
+    <p>HTML5 UP: <a href="https://html5up.net/overflow">overflow</a></p>
+    <p>Fernando Perez and The Plotly Team: <a href="https://plot.ly/javascript/">plotly.js</a></p>
+    <p>Ethan aka, Hrishikesh Paranjape aka, Greg Leppert aka et al.: <a href="https://github.com/numbers/numbers.js">numbers.js</a></p>
+    <p><a href="https://electronjs.org/">electron</a></p>
+    </article>
+
+    <section id="footer">
+    <ul class="icons">
+      <li><a href="https://plus.google.com/115374720980913914852" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+    </ul>
+    <div class="copyright">
+      <ul class="menu">
+        <li>&copy; This is a free software.</li><li>Design:Zhaoming Xia</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.scrolly.min.js"></script>
+    <script src="./assets/js/jquery.poptrox.min.js"></script>
+    <script src="./assets/js/skel.min.js"></script>
+    <script src="./assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="./assets/js/main.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

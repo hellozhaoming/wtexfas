@@ -1,0 +1,43 @@
+{
+  "name": "wtexafs",
+  "version": "1.2.0",
+  "description": "wtexafs",
+  "main": "main.js",
+  "build": {
+    "productName":"wtexafs",
+    "appId": "hellozhaoming",
+    "copyright":"Zhaoming Xia",
+    "directories": { 
+      "output": "build"
+    }, 
+    "win": {  
+      "icon": "images/icons.png",
+      "target": [
+        {
+          "target": "nsis" 
+        },
+        {
+          "target": "portable" 
+        },
+        {
+          "target": "zip" 
+        }
+      ]
+    }  
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "build": "electron-builder"
+  },
+  "repository": "https://github.com/hellozhaoming/wtexfas.git",
+  "keywords": [
+    "exafs",
+    "wavelet"
+  ],
+  "author": "Zhaoming Xia",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  }
+}

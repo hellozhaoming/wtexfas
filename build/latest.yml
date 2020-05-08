@@ -1,0 +1,8 @@
+version: 1.2.0
+files:
+  - url: wtexafs-Setup-1.2.0.exe
+    sha512: cbVubmt8XLxW3k0V57NReCPpoM1hDDpgoh6xd9VExk+A1USqVINenuj3nIXKCyWkpDH6gWyWaa08dbeg9xbqKQ==
+    size: 36683210
+path: wtexafs-Setup-1.2.0.exe
+sha512: cbVubmt8XLxW3k0V57NReCPpoM1hDDpgoh6xd9VExk+A1USqVINenuj3nIXKCyWkpDH6gWyWaa08dbeg9xbqKQ==
+releaseDate: '2020-05-08T19:10:48.749Z'

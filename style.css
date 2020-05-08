@@ -1,0 +1,18 @@
+body {font: 100% 宋体, 新宋体;background: #fff;margin: 0;padding: 0;text-align: center;color: #000000;}
+#container {
+
+	width: 80%;  /* 这将创建一个占据 80% 浏览器宽度的容器 */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+
+	text-align: left; /* 这将覆盖 body 元素上的“text-align: center”。 */
+}
+#input {
+
+	width: 60%;  /* 这将创建一个占据 80% 浏览器宽度的容器 */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+	text-align: center; /* 这将覆盖 body 元素上的“text-align: center”。 */
+  padding-top:50px;
+}
+#mainContent {padding: 0 20px; /* 请记住，填充是 div 方块内部的空间，边距则是 div 方块外部的空间 */}

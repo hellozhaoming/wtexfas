@@ -1,0 +1,13 @@
+directories:
+  output: build
+  buildResources: build
+productName: wtexafs
+appId: hellozhaoming
+copyright: Zhaoming Xia
+win:
+  icon: images/icons.png
+  target:
+    - target: nsis
+    - target: portable
+    - target: zip
+electronVersion: 3.1.13
