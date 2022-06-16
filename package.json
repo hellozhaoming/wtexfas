@@ -38,6 +38,6 @@
   "author": "Zhaoming Xia",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.10"
+    "electron": "^15.5.5"
   }
 }
